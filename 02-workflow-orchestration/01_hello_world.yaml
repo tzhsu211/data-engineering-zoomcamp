@@ -1,0 +1,17 @@
+id: 01_hello_world
+namespace: zoomcamp
+
+inputs:
+  - id: name
+   type: STRING
+   default: will
+
+concurrency:
+  behavior: fail
+  limit: 2
+
+variables:
+  welcome_message: "Hello, {inputs.name}"
+
+task:
+  - id: hello_message
