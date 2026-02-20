@@ -3,7 +3,7 @@ import duckdb
 import requests
 from pathlib import Path
 
-BASE_URL = "https://github.com/DataTalsClub/ncy-tlc-data/releases/download"
+BASE_URL = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download"
 
 def download_and_convert_files(taxi_type):
     data_dir = Path("data") / taxi_type

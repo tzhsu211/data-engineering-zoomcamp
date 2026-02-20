@@ -2,3 +2,13 @@
 target/
 dbt_packages/
 logs/
+
+# Data directionary
+data/
+
+# Data directionary
+data/
+
+# Data directionary
+data/
+dbt_internal_packages/
